@@ -19,7 +19,7 @@ async-std = { version = "1", optional = true }
 async-trait = "0.1"
 attohttpc = { version = "0.19", optional = true, default-features = false }
 aws-creds = { path = "../aws-creds" }
-aws-region = { version = "0.25.4" }
+aws-region = { path = "../aws-region" }
 base64 = "0.13"
 cfg-if = "1"
 time = { version = "^0.3.6", features = ["formatting", "macros"] }
